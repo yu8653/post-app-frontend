@@ -1,0 +1,86 @@
+.profile {
+  .msg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    font-size: 1.5rem;
+  }
+
+  section.profile {
+    text-align: center;
+    margin: 1.75rem 0;
+
+    p {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  section.post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 1 300px;
+
+    .link {
+      text-decoration: none;
+      border-radius: 0.25rem;
+      background-color: rgb(63, 91, 120);
+      color: white;
+      padding: 0.75rem;
+    }
+
+    div.post {
+      display: block;
+      width: 300px;
+      border: 1px solid rgb(63, 91, 120);
+      border-radius: 1rem;
+      padding: 0.75rem;
+      margin: 2.5rem;
+
+      .post-title {
+        text-align: center;
+      }
+
+      .post-content {
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+      }
+
+      .post-createdate {
+        text-align: center;
+        font-size: 0.75rem;
+        padding: 1rem;
+      }
+
+      .btn-group {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        flex-wrap: wrap;
+
+        .btn-edit {
+          outline: none;
+          padding: 0.5rem 0.75rem;
+          color: white;
+          background-color: rgb(63, 91, 120);
+          border: 1px solid rgba(63, 91, 120, 0.8);
+          border-radius: 0.25rem;
+          cursor: pointer;
+        }
+
+        .btn-delete {
+          outline: none;
+          padding: 0.5rem 0.75rem;
+          color: white;
+          background-color: rgb(132, 32, 41);
+          border: 1px solid rgba(132, 32, 41, 0.8);
+          border-radius: 0.25rem;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

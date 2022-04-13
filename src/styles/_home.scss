@@ -1,0 +1,29 @@
+.home {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  max-width: 300px;
+  transform: translateX(-50%);
+  padding: 1.5rem;
+  margin: 1rem;
+  background-color: rgb(225, 223, 223);
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+
+  h1 {
+    margin: 1rem;
+  }
+  p {
+    margin: 1rem;
+  }
+  a {
+    display: block;
+    margin: 1rem;
+    padding: 1rem 0.75rem;
+    background-color: rgb(63, 91, 120);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+}
