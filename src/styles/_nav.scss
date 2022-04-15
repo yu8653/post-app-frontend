@@ -1,17 +1,28 @@
 nav {
   background-color: rgb(63, 91, 120);
   ul {
-    list-style-type: none;
     display: flex;
     justify-content: flex-start;
-    margin-right: 3rem;
+    list-style-type: none;
     li {
       padding: 0.5rem 1rem;
+      &:hover {
+        background-color: black;
+      }
       .link {
         text-decoration: none;
         font-size: 1.5rem;
         color: white;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ul {
+    flex-direction: column;
+
+    li {
     }
   }
 }
